@@ -8,9 +8,7 @@
  */
 int main(void)
 {
-char alphas;
-
-alphas="abcdefghijklmnopqrstuvwxyz";
+char alphas[26] = "abcdefghijklmnopqrstuvwxyz";
 putchar(alphas);
 return (0);
 }
