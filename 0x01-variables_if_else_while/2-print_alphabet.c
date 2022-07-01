@@ -9,6 +9,12 @@
 int main(void)
 {
 char alphas[26] = "abcdefghijklmnopqrstuvwxyz";
-putchar(alphas);
+int i;
+
+for (i = 0; i < 26; i++)
+{
+	putchar(alphas[i]);
+}
+putchar('\n');
 return (0);
 }
