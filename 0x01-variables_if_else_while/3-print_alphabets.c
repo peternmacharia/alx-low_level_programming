@@ -7,7 +7,13 @@
  */
 int main(void)
 {
-	int alphABET = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ\n";
-	putchar(alphABET);
+char alphABET[52] = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ\n";
+int i;
+
+for (i = 0; i < 52; i++)
+{
+	putchar(alphABET[i]);
+}
+	putchar('\n');
 	return (0);
 }
