@@ -1,5 +1,6 @@
 #include <stdlib.h>
 #include <stdio.h>
+#include <string.h>
 
 /**
  * main - Entry point
@@ -13,7 +14,7 @@ int i;
 
 for (i = 0; i < 26; i++)
 {
-	if (alphabets[i] == "e" && alphabets[i] == "q")
+	if (i == 4 && i == 16)
 	{
 		putchar(alphabets[i] = "abcdfghijklmnoprstuvwxyz");
 	}
