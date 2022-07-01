@@ -1,3 +1,4 @@
+#include <stdlib.h>
 #include <stdio.h>
 
 /**
@@ -7,13 +8,13 @@
  */
 int main(void)
 {
-char alphABET[52] = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ\n";
+char alphABET[52] = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
 int i;
 
 for (i = 0; i < 52; i++)
 {
 	putchar(alphABET[i]);
 }
-	putchar('\n');
-	return (0);
+putchar('\n');
+return (0);
 }
