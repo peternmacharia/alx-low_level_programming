@@ -4,11 +4,11 @@
 /**
  * main - Entry point
  *
-	* Return: Always 1 (Success)
+	* Return: Always 0 (Success)
  */
 int main(void)
 {
-int alphas;
+char alphas;
 
 alphas="abcdefghijklmnopqrstuvwxyz";
 putchar(alphas);
