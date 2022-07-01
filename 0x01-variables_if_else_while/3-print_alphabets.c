@@ -7,9 +7,7 @@
  */
 int main(void)
 {
-	int alphABET;
-
-	alphABET = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ\n";
+	int alphABET = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ\n";
 	putchar(alphABET);
 	return (0);
 }
