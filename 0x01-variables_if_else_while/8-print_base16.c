@@ -14,5 +14,5 @@ for (i = 0; i < 16; i++)
 	putchar(i);
 }
 putchar('\n');
-return (i);
+return (0);
 }
