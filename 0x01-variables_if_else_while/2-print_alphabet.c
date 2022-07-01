@@ -10,7 +10,7 @@ int main(void)
 {
 int alphas;
 
-alphas='abcdefghijklmnopqrstuvwxyz';
+alphas="abcdefghijklmnopqrstuvwxyz";
 putchar(alphas);
 return (0);
 }
