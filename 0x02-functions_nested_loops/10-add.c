@@ -3,7 +3,7 @@
 /**
  * add - Function that adds two integers
 	*
-	*@i, @j: this are integers
+	*@i,@j : this are integers
  *
 	* Return: Returns the result
  */
