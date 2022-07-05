@@ -9,20 +9,27 @@
  */
 void times_table(void)
 {
-int i, j;
+int i, j, mult;
 
 for (i = 48; i <= 57; i++)
 {
 	_putchar(48);
-	for (j = 48; j <= 57; j++)
+	for (j = 49; j <= 57; j++)
 	{
-		_putchar(48);
+		mult = i * j;
+		_putchar(44);
+		_putchar(32);
+		if (mult <= 9)
+		{
+			_putchar(32);
+			_putchar(mult + 48);
+		}
+		else
+		{
+			_putchar((mult / 10) + 48);
+			_putchar((mult % 10) + 48);
+		}
 	}
-	_putchar(44);
-	_putchar(32);
-	_putchar(i);
-	_putchar(44);
-	_putchar(32);
 	_putchar('\n');
 }
 }
