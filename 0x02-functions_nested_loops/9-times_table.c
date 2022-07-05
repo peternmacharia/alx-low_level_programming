@@ -18,7 +18,8 @@ for (i = 48; i <= 57; i++)
 		if (j >= 57)
 		break;
 		_putchar(j);
-		_putchar(', ');
+		_putchar(44);
+		_putchar(' ');
 	}
 }
 }
