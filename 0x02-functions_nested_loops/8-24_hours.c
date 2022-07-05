@@ -17,16 +17,14 @@ for (i = 48; i <= 50; i++)
 		{
 			for (n = 48; n <= 57; n++)
 			{
-				if (i >= 50 && j >=52)
-				{
-					break;
-					_putchar(i);
-					_putchar(j);
-					_putchar(':');
-					_putchar(m);
-					_putchar(n);
-					_putchar('\n');
-				}
+				if (i >= 50 && j >= 52)
+				break;
+				_putchar(i);
+				_putchar(j);
+				_putchar(':');
+				_putchar(m);
+				_putchar(n);
+				_putchar('\n');
 			}
 		}
 	}
