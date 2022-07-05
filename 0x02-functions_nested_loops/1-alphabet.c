@@ -15,12 +15,10 @@ return (0);
 void print_alphabet(void)
 {
 int i;
-int result;
 
 for (i = 93; i < 123; i++)
 {
-	result = i;
 	printf("%d", i);
 }
-return (result);
+return (0);
 }
