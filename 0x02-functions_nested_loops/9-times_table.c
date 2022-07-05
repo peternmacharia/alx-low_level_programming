@@ -14,6 +14,8 @@ int i;
 for (i = 48; i <= 57; i++)
 {
 	_putchar(48);
+	_putchar(44);
+	_putchar(32);
 	_putchar(i);
 	_putchar(44);
 	_putchar(32);
