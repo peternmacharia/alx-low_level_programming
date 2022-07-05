@@ -3,7 +3,8 @@
 /**
  * add - Function that adds two integers
 	*
-	*@i,@j : this are integers
+	* @i: Integer one
+	* @j: Integer two
  *
 	* Return: Returns the result
  */
