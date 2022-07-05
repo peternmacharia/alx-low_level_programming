@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * times_table - Function that prints times table
+ * print_times_table - Function that prints times table
 	*
 	*@n: this are integers
 	*
@@ -22,5 +22,6 @@ if (n > 0 && n < 15)
 			printf("%d, ", mult);
 		}
 	}
+	printf("\n");
 }
 }
