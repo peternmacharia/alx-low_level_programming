@@ -1,5 +1,4 @@
-#include <stdio.h>
-int _islower(int c);
+#include "main.h"
 
 /**
  * main - Entry point Checks the lowercase character
