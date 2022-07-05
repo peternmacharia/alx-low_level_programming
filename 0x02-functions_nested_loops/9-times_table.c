@@ -17,7 +17,6 @@ for (i = 48; i <= 57; i++)
 	{
 		if (j >= 57)
 		break;
-		_putchar(i);
 		_putchar(j);
 		_putchar(44);
 		_putchar(' ');
