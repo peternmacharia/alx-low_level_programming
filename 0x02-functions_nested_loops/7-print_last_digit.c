@@ -15,11 +15,11 @@ l = m % 10;
 if (l < 0)
 {
 	_putchar(-l + 48);
-	return (-1);
+	return (-l);
 }
 else
 {
 	_putchar(l + 48);
-	return (1);
+	return (l);
 }
 }
