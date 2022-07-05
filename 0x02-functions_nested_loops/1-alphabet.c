@@ -8,11 +8,6 @@ void print_alphabet(void);
  */
 int main(void)
 {
-int i;
-
-for (i = 93; i < 123; i++)
-{
-	putchar(print_alphabet);
-}
+print_alphabet();
 return (0);
 }
