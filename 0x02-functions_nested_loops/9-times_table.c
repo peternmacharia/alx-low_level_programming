@@ -11,10 +11,10 @@ void times_table(void)
 {
 int i, j, mult;
 
-for (i = 48; i <= 57; i++)
+for (i = 0; i <= 9; i++)
 {
 	_putchar(48);
-	for (j = 49; j <= 57; j++)
+	for (j = 1; j <= 9; j++)
 	{
 		mult = i * j;
 		_putchar(44);
