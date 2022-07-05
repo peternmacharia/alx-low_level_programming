@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include "main.h"
+void print_alphabet(void);
 
 /**
  * main - Entry point prints alphabets
@@ -12,7 +12,7 @@ int i;
 
 for (i = 93; i < 123; i++)
 {
-	printf("%d\n", i);
+	putchar(print_alphabet);
 }
 return (0);
 }
