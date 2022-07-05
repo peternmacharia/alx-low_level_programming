@@ -13,6 +13,7 @@ int i, j;
 
 for (i = 48; i <= 57; i++)
 {
+	_putchar(i);
 	for (j = 48; j <= 57; j++)
 	{
 		_putchar(j);
