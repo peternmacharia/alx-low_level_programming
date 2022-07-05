@@ -13,13 +13,13 @@ int i, j, mult;
 
 if (n > 0 && n < 15)
 {
-	for (i = n; n <= n; n++)
+	for (i = 1; i <= n; i++)
 	{
 		printf("0, ");
-		for (j = n; j <= n; j++)
+		for (j = 1; j <= n; j++)
 		{
 			mult = n * n;
-			printf("%d, ", n);
+			printf("%d, ", mult);
 		}
 	}
 }
