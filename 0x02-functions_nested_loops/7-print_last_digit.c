@@ -7,20 +7,19 @@
  *
 	* Returns: Last digit of a number
  */
-int print_last_digit(int i)
+int print_last_digit(int m)
 {
-int n;
+int l;
 
-n = i % 10;
-if (n < 0)
+l = m % 10;
+if (l < 0)
 {
-	_putchar(-n + 48);
+	_putchar(-l + 48);
 	return (-1);
 }
 else
 {
-	_putchar(n + 48);
+	_putchar(l + 48);
 	return (1);
 }
-_putchar('\n');
 }
