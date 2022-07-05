@@ -17,4 +17,5 @@ else
 {
 	return (i * -1);
 }
+_putchar('\n');
 }
