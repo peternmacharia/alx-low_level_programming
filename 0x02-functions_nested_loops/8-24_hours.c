@@ -18,13 +18,13 @@ for (i = 48; i <= 50; i++)
 		_putchar(j);
 		_putchar(':');
 	}
-}
-for (m = 48; m <= 53; m++)
-{
-	for (n = 48; n <= 57; n++)
+	for (m = 48; m <= 53; m++)
 	{
-		_putchar(m);
-		_putchar(n);
+		for (n = 48; n <= 57; n++)
+		{
+			_putchar(m);
+			_putchar(n);
+		}
 	}
 }
 _putchar('\n');
