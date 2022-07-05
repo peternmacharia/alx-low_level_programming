@@ -13,7 +13,7 @@ int i, j;
 
 for (i = 48; i <= 57; i++)
 {
-	for (j = 48; j <= 57; j++)
+	for (j = 48; j <= i; j++)
 	{
 		if (j >= 57)
 		break;
