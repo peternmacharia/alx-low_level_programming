@@ -2,6 +2,8 @@
 
 /**
  * _islower - Checks the lowercase character
+	*
+	*@c: is an integer
  *
 	* Return: return 1 (if lowercase) return 0 (otherwise)
  */
@@ -15,4 +17,5 @@ else
 {
 	return (0);
 }
+_putchar('\n');
 }
