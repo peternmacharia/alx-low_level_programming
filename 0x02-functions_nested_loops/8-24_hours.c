@@ -3,7 +3,9 @@
 /**
  * jack_bauer - Prints every minute of the day of Jack Jack Bauer
 	*
- *Return: Returns every minute starting from 00:00 to 23:59
+	* @i, @j, @m, @n: this are integers
+	*
+ * Return: Returns every minute starting from 00:00 to 23:59
  */
 void jack_bauer(void)
 {
