@@ -13,8 +13,15 @@ int i;
 
 for (i = 48; i <= 57; i++)
 {
+	if (i >= 57)
+	{
+		_putchar(32);
+	}
+	else
+	{
 	_putchar(48);
 	_putchar(44);
 	_putchar(32);
+	}
 }
 }
