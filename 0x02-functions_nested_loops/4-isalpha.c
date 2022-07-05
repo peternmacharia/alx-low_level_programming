@@ -9,10 +9,13 @@ int _isalpha(int c)
 {
 if (c >= 65 && c <= 90 || c >= 97 && c <= 122)
 {
+	_putchar(c);
 	return (1);
 }
 else
 {
+	_putchar(c);
 	return (0);
 }
+_putchar('\n');
 }
