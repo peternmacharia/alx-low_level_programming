@@ -20,5 +20,4 @@ for (i = 93; i < 123; i++)
 {
 	printf("%d", i);
 }
-return (0);
 }
