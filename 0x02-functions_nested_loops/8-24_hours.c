@@ -15,6 +15,7 @@ for (i = 48; i <= 50; i++)
 	{
 		_putchar(i);
 		_putchar(j);
+		_putchar(':');
 	}
 }
 _putchar('\n');
