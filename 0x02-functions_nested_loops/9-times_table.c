@@ -13,7 +13,7 @@ int i;
 
 for (i = 48; i <= 57; i++)
 {
-	if (i >= 57)
+	if (i == 57)
 	{
 		_putchar(32);
 	}
