@@ -13,10 +13,11 @@ int i, j;
 
 for (i = 48; i <= 57; i++)
 {
-	for (j = 48; j <= i; j++)
+	for (j = 48; j <= 57; j++)
 	{
 		if (j >= 57)
 		break;
+		_putchar(i);
 		_putchar(j);
 		_putchar(44);
 		_putchar(' ');
