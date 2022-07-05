@@ -40,7 +40,7 @@ if (n >= 0 && n <= 15)
 				_putchar((mult % 10) + 48);
 			}
 		}
+		_putchar('\n');
 	}
-	_putchar('\n');
 }
 }
