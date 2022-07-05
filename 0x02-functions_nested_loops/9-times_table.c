@@ -9,11 +9,15 @@
  */
 void times_table(void)
 {
-int i;
+int i, j;
 
 for (i = 48; i <= 57; i++)
 {
 	_putchar(48);
+	for (j = 48; j <= 57; j++)
+	{
+		_putchar(48);
+	}
 	_putchar(44);
 	_putchar(32);
 	_putchar(i);
