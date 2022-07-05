@@ -5,7 +5,7 @@
 	*
 	*@i, @j: this are integers
 	*
- * Return: The 9 times table 
+ * Return: The 9 times table
  */
 void times_table(void)
 {
@@ -13,7 +13,7 @@ int i, j;
 
 for (i = 48; i <= 57; i++)
 {
-	for (j = 0; j <= i; j++)
+	for (j = 48; j <= i; j++)
 	{
 		if (j >= 57)
 		break;
