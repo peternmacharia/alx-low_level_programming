@@ -1,20 +1,20 @@
 #include "main.h"
 
 /**
-* print_most_numbers - prints numbers from 0 to 9
-*
-* Return: no return
-*/
+ * print_most_numbers - prints the numbers from 0 to 9
+ *
+	* Return: no return
+ */
 
 void print_most_numbers(void)
 {
-	int m;
+	int j;
 
-	for (m = 48; m <= 57; m++)
+	for (j = 0; j <= 9; j++)
 	{
-		if (m != 50 && m != 52)
+		if (j != 2 && j != 4)
 		{
-			_putchar(m);
+			_putchar(j);
 		}
 		_putchar('\n');
 	}
