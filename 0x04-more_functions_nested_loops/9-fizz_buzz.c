@@ -10,7 +10,9 @@ int main(void)
 {
 	int j;
 
-	for (j = 1; j <= 100; j++)
+	j = 1;
+	printf("%d", j);
+	for (j = 2; j <= 100; j++)
 	{
 		if ((j % 3 == 0) && (j % 5 == 0))
 		{
