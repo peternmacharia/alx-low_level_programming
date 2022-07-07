@@ -1,12 +1,12 @@
 #include "main.h"
 
 /**
- * main - entry point
+ * fizz_buzz - prints the fizz buzz test
  *
 	* Return: no return
  */
 
-int main(void)
+int fizz_buzz(void)
 {
 	int j;
 
