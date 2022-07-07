@@ -30,5 +30,7 @@ int main(void)
 		}
 	}
 
-	return (0);
+printf("\n");
+
+return (0);
 }
