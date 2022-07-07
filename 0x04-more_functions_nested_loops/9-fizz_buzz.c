@@ -1,12 +1,12 @@
 #include "main.h"
 
 /**
- * fizz_buzz - prints the fizz buzz test
+ * main - prints the fizz buzz test
  *
-	* Return: no return
+	* Return: Always 0
  */
 
-int fizz_buzz(void)
+int main(void)
 {
 	int j;
 
@@ -29,4 +29,7 @@ int fizz_buzz(void)
 			printf("%d ", j);
 		}
 	}
+	printf("\n");
+
+	return (0);
 }
