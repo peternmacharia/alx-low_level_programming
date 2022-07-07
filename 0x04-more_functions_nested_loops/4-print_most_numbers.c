@@ -3,16 +3,16 @@
 /**
  * print_most_numbers - Prints numbers from 0 to 9
 	*
- * Return: The numbers without printing 2 and 4
+ * Return: No Return
  */
 
 void print_most_numbers(void)
 {
 int i;
 
-for (i = 0; i <= 9; i++)
+for (i = 48; i <= 57; i++)
 {
-if (i != 2 && i != 4)
+if (i != 50 && i != 52)
 {
 	_putchar(i);
 }
