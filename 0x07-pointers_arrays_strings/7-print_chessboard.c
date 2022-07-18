@@ -4,7 +4,7 @@
  * print_chessboard - function that prints the chessboard
 	* @a: character array
 	*
- * Return: returns nothung
+ * Return: returns nothing
  */
 
 void print_chessboard(char (*a)[8])
@@ -22,4 +22,3 @@ void print_chessboard(char (*a)[8])
 	}
 	_putchar('\n');
 }
-
