@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 /**
- * main - program to print the file name
- * Description: print file name from which file is compiled from
- * Return: always a success
+ * main - print name of file compiled from
+ *
+ * Return: Always 0.
  */
 
 int main(void)
