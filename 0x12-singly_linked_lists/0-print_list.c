@@ -7,6 +7,7 @@
  *
  * Return: number of nodes
  */
+
 size_t print_list(const list_t *h)
 {
 	const list_t *current;
@@ -20,5 +21,6 @@ size_t print_list(const list_t *h)
 		current = current->next;
 		c++;
 	}
-	return (c);
+
+return (c);
 }
