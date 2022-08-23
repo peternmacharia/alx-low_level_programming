@@ -1,12 +1,13 @@
 #ifndef MAIN_H
-#define MAIN_N
+#define MAIN_H
 
 #include <stdlib.h>
 #include <stdio.h>
-#include <unistd.h>
-#include <fcntl.h>
+
 #include <sys/types.h>
 #include <sys/stat.h>
+#include <fcntl.h>
+#include <unistd.h>
 #include <elf.h>
 
 int _putchar(char c);
@@ -27,4 +28,5 @@ void print_osabi(unsigned char *e_ident);
 void print_type(unsigned int e_type, unsigned char *e_ident);
 void print_entry(unsigned long int e_entry, unsigned char *e_ident);
 void close_elf(int elf);
-#endif
+
+#endif/* MAIN_H */
