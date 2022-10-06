@@ -46,3 +46,15 @@ int div(int a, int b)
      */
     return (a / b);
 }
+
+int mod(int a, int b)
+{
+    /**
+     * mod - module function
+     * @a: first integer
+     * @b: second integer
+     *
+     * Return: the module of the two integers
+     */
+    return (a % b);
+}
